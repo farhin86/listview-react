@@ -1,0 +1,28 @@
+.card-section {
+  width: 8%;
+  // height: 12rem;
+  margin: 2%;
+  box-shadow: 0 2px 8px 0 grey;
+  border-radius: 8px;
+  padding: 16px 20px;
+  cursor: pointer;
+  .item-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+    text-align: left;
+  }
+  .sub-title {
+    color: #535665;
+    padding-top: 5px;
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 400;
+    text-align: left;
+  }
+}
